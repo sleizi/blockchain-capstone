@@ -1,0 +1,15 @@
+build
+# testing
+/coverage
+
+# production
+/build
+/eth-contracts/build
+
+# misc
+.secret
+.rinkeby-infurakey
+
+npm-debug.log*
+node_modules
+UMLdrawio

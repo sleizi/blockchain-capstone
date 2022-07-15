@@ -1,0 +1,7 @@
+docker run -v D:\BlockchainCapstone\zokrates\code:/home/zokrates/code -ti zokrates/zokrates:0.5.0 /bin/bash
+cd code/square
+~/zokrates compile -i square.code
+~/zokrates setup
+~/zokrates compute-witness -a 3 9
+~/zokrates generate-proof
+~/zokrates export-verifier
